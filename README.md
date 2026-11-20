@@ -1,18 +1,29 @@
-# Bank Customer Churn Prediction using Artificial Neural Network
+# 🏦 Bank Customer Churn Prediction using Artificial Neural Network
 
-## Project Overview
+**AI-powered customer churn prediction using Artificial Neural Networks and Streamlit.**
+
+🚀 **Live Demo:** [Try the Application](https://ann-customer-churn-prediction-nn9tw4uaym5aoxwzhbiuit.streamlit.app/)
+
+💻 **GitHub Repository:** [View Source Code](https://github.com/divyakanse/ann-customer-churn-prediction)
+
+---
+
+## 📌 Project Overview
+
 This project predicts whether a bank customer is likely to leave the bank using an Artificial Neural Network (ANN).
 
 The application allows users to enter customer information and receive a predicted churn probability through an interactive Streamlit dashboard.
 
-## Objectives
+## 🎯 Objectives
+
 - Analyze customer information for churn prediction.
 - Build and train an Artificial Neural Network.
 - Apply data preprocessing and feature scaling.
 - Predict customer churn probability.
 - Develop an interactive web application using Streamlit.
 
-## Technologies Used
+## 🛠️ Technologies Used
+
 - Python
 - Pandas and NumPy
 - Scikit-learn
@@ -21,7 +32,8 @@ The application allows users to enter customer information and receive a predict
 - Streamlit
 - Joblib
 
-## Machine Learning Workflow
+## 🔄 Machine Learning Workflow
+
 1. Load and explore the customer churn dataset.
 2. Separate independent and dependent variables.
 3. Encode categorical features.
@@ -32,7 +44,8 @@ The application allows users to enter customer information and receive a predict
 8. Save the trained model and preprocessing objects.
 9. Build a Streamlit application for customer predictions.
 
-## ANN Architecture
+## 🧠 ANN Architecture
+
 - Input layer: 12 features
 - Hidden layer 1: 6 neurons, ReLU activation
 - Hidden layer 2: 6 neurons, ReLU activation
@@ -40,7 +53,8 @@ The application allows users to enter customer information and receive a predict
 - Optimizer: Adam
 - Loss function: Binary Crossentropy
 
-## Application Features
+## 📊 Application Features
+
 - Customer information input form
 - Geography and gender selection
 - ANN-based churn probability prediction
@@ -48,7 +62,8 @@ The application allows users to enter customer information and receive a predict
 - Suggested customer retention action
 - Interactive Streamlit dashboard
 
-## Decision Threshold
+## ⚙️ Decision Threshold
+
 The application uses a 0.40 probability threshold to classify customers.
 
 - Probability above 0.40: Likely to leave
@@ -56,10 +71,10 @@ The application uses a 0.40 probability threshold to classify customers.
 
 This threshold is an experimental modelling choice and can be adjusted according to business requirements.
 
-## Project Structure
+## 📁 Project Structure
+
 ```text
 ANN Model/
-│
 ├── ANN_Model.py
 ├── app.py
 ├── Churn_Modelling.csv
@@ -71,46 +86,53 @@ ANN Model/
 └── README.md
 ```
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
 ### 1. Clone the repository
+
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/divyakanse/ann-customer-churn-prediction.git
 ```
 
 ### 2. Open the project folder
+
 ```bash
-cd "ANN Model"
+cd ann-customer-churn-prediction
 ```
 
 ### 3. Create a virtual environment
+
 ```bash
 python -m venv venv
 ```
 
 ### 4. Activate the environment (Windows PowerShell)
+
 ```powershell
 .\venv\Scripts\Activate.ps1
 ```
 
 ### 5. Install dependencies
+
 ```bash
 python -m pip install -r requirements.txt
 ```
 
 ### 6. Run the Streamlit application
+
 ```bash
 streamlit run app.py
 ```
 
 The application will open in your browser at `http://localhost:8501`.
 
-## Future Improvements
+## 🔮 Future Improvements
+
 - Add model performance visualizations.
 - Improve customer risk segmentation.
 - Add explainable AI techniques.
-- Deploy the application online.
 - Improve the dashboard with additional business insights.
 
-## Disclaimer
+## ⚠️ Disclaimer
+
 This project is developed for educational and portfolio purposes. Predictions are estimates and should not be treated as guarantees of customer behaviour.
